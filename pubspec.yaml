@@ -1,0 +1,29 @@
+name: samaj_app
+description: Samaj - Gram Panchayat Management App
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.0
+  cloud_firestore: ^4.8.0
+  firebase_storage: ^11.2.0
+  image_picker: ^1.0.0
+  geolocator: ^9.0.2
+  permission_handler: ^11.0.0
+  intl: ^0.18.1
+  shared_preferences: ^2.2.0
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
